@@ -1,0 +1,21 @@
+(this folder does not include the trials with compliance levels 0.9)
+25 trials were run, each with 50 samples
+the compliance took on values 0, 0.25, 0.5, 0.75, 1
+the avg carry ons took on values 0, 0.25, 0.5, 0.75, 1
+
+ran for about 3 hours
+
+== constants used ==
+seat_pitch = 30
+num_rows = 32
+seat_move_time = 3
+hall_interval_size = 25
+tick_time = 0.05
+carry_on_time = 4
+walk_speed_mean = 44
+walk_speed_sd = 18
+walk_speed_min = 10
+seat_letters = ['A', 'B', 'C', 'D', 'E', 'F']
+sim_time_max = 60 * 60
+def row_to_hall_position(row):
+    return float(row) * seat_pitch

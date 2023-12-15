@@ -1,0 +1,2 @@
+while writing the paper, i decided to also run trials for the compliance level of 0.9
+all constants used were the same, and are described in the paper as well as big-trialset/description.txt
