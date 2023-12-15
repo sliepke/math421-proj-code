@@ -1,9 +1,12 @@
 Hi, fortunately I managed to get my project in on time
 
+The code requires pip installing the following packages: numpy, pillow,
+pathlib, and matplotlib
+
 If you would like to test some things without spending too much time to
 understand the code, you can try test.py - it has one function that lets
 you see the simulation run tick by tick, and another that lets you perform a
-trial of the disembarking method, compliance level, and average # of carry-ons
-of your choosing, and then saves it into a json file
+trial of the disembarking method, compliance level, average # of carry-ons,
+and sample size of your choosing, and then saves it into a json file
 
-more information about them, and how to use them, is found is test.py
+example uses and descriptions for the test.py functions are found in test.py
